@@ -13,22 +13,32 @@
     <img class="banner" src="http://www.radiokerry.ie/wp-content/uploads/sites/16/canada-2906822_960_720.png">
   </header>
   <section class="margin">
-    <h2>Sobre a cidade</h2>
+    <h2 onclick="corTexto()">Sobre a cidade</h2>
     <p onclick="mudarTexto()">
-  O Canadá (em inglês: Canada, pronunciado [ˈkænədə] ( ouvir); em francês: Canada, pronunciado: [kanada]) é um país que ocupa grande parte da América do Norte e se estende desde o oceano Atlântico, a leste,
+  O Canadá (em inglês: Canada, pronunciado [ˈkænədə] (ouvir); em francês: Canada, pronunciado: [kanada]) é um país que ocupa grande parte da América do Norte e se estende desde o oceano Atlântico, a leste,
   até o oceano Pacífico, a oeste. Ao norte o país é limitado pelo oceano Ártico.  </p>
   </section>
   <section class="margin">
     <h2>Fotos da Cidade</h2>
-
-    <img class="banner" src="img/canada1.jpg" id="imagem10">
-    <img class="banner" src="img/gastown.jpg">
-    <img class="banner" src="img/granville.jpg">
+    <div onclick="inverterFotos()" class="fotos">
+        <div class="foto1">
+          <img class="banner" src="img/canada1.jpg" id="imagem10">
+        </div>
+        <div class="foto2">
+          <img class="banner" src="img/gastown.jpg">
+        </div>
+        <div class="foto3">
+          <img class="banner" src="img/granville.jpg">
+        </div>
+    </div>
   </section>
   <footer class="margin">
+    <button onclick="apagarLuz()" type="button" name="Apagar a Luz">Apagar a Luz</button>
+    <button onclick="criarBorda()" type="button" name="Borda">Borda Azul</button>
     <p>Copyright 2017@</p>
   </footer>
   <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="teste.js"></script>
 </body>
 
 </html>
